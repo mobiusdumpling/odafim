@@ -1,6 +1,8 @@
 # odafim
 A project for simulating the effect of Surplus Vote Swap on the Israeli election
 
+This project is open-source. You can do whatever you want with it. It'd be nice if you give credit, and it'd be nice if you tell me if you do anything cool with it.
+
 Facebook discussion: https://www.facebook.com/grogish.ratios/posts/356898994518877?pnref=story
 
 Results of the analysis:
