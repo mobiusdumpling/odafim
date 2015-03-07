@@ -79,7 +79,7 @@ alt_gains = {party : alt_results[party] - normal_results[party] for party in nor
 for party in normal_results:
     print "With the proposed change to the odafim agreement,", party, "would have gained", round(alt_gains[party], 3), "mandates"
 
-center_left_coalition = {"arab", "avoda", "meretz", "lapid", "shas", "aguda", "kahlon"}
-extended_center_left_coalition = {"arab", "avoda", "meretz", "lapid"}
+center_left_coalition = {"arab", "avoda", "meretz", "lapid"}
+extended_center_left_coalition = {"arab", "avoda", "meretz", "lapid", "shas", "aguda", "kahlon"}
 print "In total, the center-left coalition would gain", sum([alt_gains[party] for party in center_left_coalition]), "mandates"
 print "The extended center-left coalition (with kahlon and religious parties) would gain", sum([alt_gains[party] for party in extended_center_left_coalition]), "mandates"
