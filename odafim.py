@@ -13,7 +13,7 @@ def bader_ofer(fractional_results):
     tot_mandates = fractional_mand.sum()
     assert almost_int(tot_mandates)
     result = np.floor(fractional_mand)
-    leftover_mand = int(tot_mandates - result.sum())
+    leftover_mand = int(round(tot_mandates - result.sum()))
     for i in range(leftover_mand):
         bader_ofer_scores = fractional_mand / (result+1)
         odef_winner = np.argmax(bader_ofer_scores)
@@ -39,11 +39,13 @@ def run_simulation(survey, odafim):
         bader_ofer_step1 = {party : noisy_survey[party] for party in no_odafim}
         bader_ofer_step1.update({pair : noisy_survey[pair[0]] + noisy_survey[pair[1]] for pair in odafim})
         step1_res = bader_ofer(bader_ofer_step1)
+        assert abs(sum(step1_res.values())-120.0)<=0.0001
         simu_result = {party : step1_res[party] for party in no_odafim}
         for pair in odafim:
             norm_factor2 = step1_res[pair] / (noisy_survey[pair[0]] + noisy_survey[pair[1]])
             pair_bader_ofer = {party : noisy_survey[party] * norm_factor2 for party in pair}
             simu_result.update(bader_ofer(pair_bader_ofer))
+        assert abs(sum(simu_result.values())-120)<=0.0001
         for party in parties:
             total[party].append(simu_result[party])
     result = {party : sum(total[party]) / num_simulations for party in parties}
