@@ -7,28 +7,28 @@ Facebook discussion: https://www.facebook.com/grogish.ratios/posts/3568989945188
 
 Results of the analysis:
 
-With the proposed change to the odafim agreement, meretz would have gained 0.048 mandates
+With the proposed change to the odafim agreement, meretz would have gained 0.042 mandates
 
-With the proposed change to the odafim agreement, shas would have gained -0.024 mandates
+With the proposed change to the odafim agreement, shas would have gained -0.031 mandates
 
-With the proposed change to the odafim agreement, yahad would have gained -0.015 mandates
+With the proposed change to the odafim agreement, yahad would have gained -0.014 mandates
 
-With the proposed change to the odafim agreement, aguda would have gained -0.02 mandates
+With the proposed change to the odafim agreement, aguda would have gained -0.023 mandates
 
-With the proposed change to the odafim agreement, bennet would have gained -0.029 mandates
+With the proposed change to the odafim agreement, bennet would have gained -0.035 mandates
 
-With the proposed change to the odafim agreement, arab would have gained 0.243 mandates
+With the proposed change to the odafim agreement, arab would have gained 0.286 mandates
 
 With the proposed change to the odafim agreement, liberman would have gained -0.018 mandates
 
-With the proposed change to the odafim agreement, likud would have gained -0.085 mandates
+With the proposed change to the odafim agreement, likud would have gained -0.095 mandates
 
-With the proposed change to the odafim agreement, kahlon would have gained -0.029 mandates
+With the proposed change to the odafim agreement, kahlon would have gained -0.035 mandates
 
-With the proposed change to the odafim agreement, avoda would have gained -0.094 mandates
+With the proposed change to the odafim agreement, avoda would have gained -0.185 mandates
 
-With the proposed change to the odafim agreement, lapid would have gained 0.088 mandates
+With the proposed change to the odafim agreement, lapid would have gained 0.109 mandates
 
-In total, the center-left coalition would gain 0.28446 mandates
+In total, the center-left coalition would gain 0.25152 mandates
 
-The extended center-left coalition (with kahlon and religious parties) would gain 0.21106 mandates
+The extended center-left coalition (with kahlon and religious parties) would gain 0.16239 mandates
